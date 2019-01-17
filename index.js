@@ -41,10 +41,11 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
- var answer=""
+ var answer="That item is not in your cart."
  for(let i=0;i<cart.length;i++)
  {
-   if()
+   if(cart[i].itemName===item)
+    
  }
   
 }
