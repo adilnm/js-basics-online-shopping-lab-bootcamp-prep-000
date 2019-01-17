@@ -34,7 +34,7 @@ function total() {
   var total=0
   for (let i=0;i<cart.length;i++)
   {
-    total+=parseInt(cart[i].itemPrice)
+    total+=parseFloat(cart[i].itemPrice)
   }
   return total
 }
