@@ -1,4 +1,4 @@
-var cart = [ { itemName:"bananas", itemPrice: 17 }, { itemName:"pancake batter",itemPrice: 5 }, { itemName:"eggs", itemPrice: 499 }];
+var cart = []
 
 function getCart() {
  return cart;
@@ -31,7 +31,7 @@ function viewCart() {
 
 function total() {
   // write your code here
-  var total=0
+  var total=8
   for (let i=0;i<cart.length;i++)
   {
     total+=cart[i].itemPrice
