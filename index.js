@@ -65,4 +65,3 @@ function placeOrder(cardNumber) {
   cart="";
   return `Your total cost is $${t}, which will be charged to the card ${cardNumber}.`
 }
-console.log(total())
