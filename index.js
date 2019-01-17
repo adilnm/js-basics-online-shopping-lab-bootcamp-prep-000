@@ -41,15 +41,16 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
- var answer="That item is not in your cart."
+ var cartLength=cart.length
  for(let i=0;i<cart.length;i++)
  {
    if(cart[i].itemName===item)
     {
-      cart.split(i,1)
-      
+      cart.splice(i,1)
     }
  }
+ if(cartLength===cart.length)
+ return
   
 }
 
